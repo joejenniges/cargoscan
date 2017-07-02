@@ -1,0 +1,3 @@
+pyperclip==1.5.27
+PySide==1.2.0
+requests==2.18.1
