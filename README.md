@@ -1,5 +1,5 @@
 # CargoScan
-![CargoScan](http://i.imgur.com/7e1e21G.png)
+![CargoScan](http://i.imgur.com/gBDIjyR.png)
 
 ## Description
 This tool takes the results from a cargoscan and quickly puts it into Evepraisal, spitting back useful info.
