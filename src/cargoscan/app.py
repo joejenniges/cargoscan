@@ -60,10 +60,10 @@ class MainWindow(QtGui.QMainWindow):
 
         self.ui.tableWidget.setColumnCount(3)
         self.ui.tableWidget.setHorizontalHeaderLabels(['Qty', 'Item', 'Value'])
-        self.ui.tableWidget.setFixedWidth(640)
+        self.ui.tableWidget.setFixedWidth(442)
         self.ui.tableWidget.setColumnWidth(0, 50)
-        self.ui.tableWidget.setColumnWidth(1, 400)
-        self.ui.tableWidget.setColumnWidth(2, 150)
+        self.ui.tableWidget.setColumnWidth(1, 280)
+        self.ui.tableWidget.setColumnWidth(2, 110)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 
         self.startClipboard()
@@ -88,14 +88,19 @@ class MainWindow(QtGui.QMainWindow):
         self.ui.tableWidget.setRowCount(0)
         self.ui.tableWidget.setRowCount(len(items))
         self.ui.tableWidget.setSortingEnabled(False)
+        font = QtGui.QFont("Segoe", 7)
         for i in range(len(items)):
             item = items[i]
             qty_item  = QCustomTableWidgetItem("{:,}".format(item['quantity']))
             item_item = QtGui.QTableWidgetItem(item['name'])
             val_item  = QCustomTableWidgetItem("{:,.2f}".format(item['prices']['sell']['min'] * item['quantity']))
+            qty_item.setFont(font)
+            item_item.setFont(font)
+            val_item.setFont(font)
             self.ui.tableWidget.setItem(i, 0, qty_item)
             self.ui.tableWidget.setItem(i, 1, item_item)
             self.ui.tableWidget.setItem(i, 2, val_item)
+        self.ui.tableWidget.resizeRowsToContents()
         self.ui.tableWidget.setSortingEnabled(True)
         self.ui.tableWidget.sortItems(2, QtCore.Qt.DescendingOrder)
 

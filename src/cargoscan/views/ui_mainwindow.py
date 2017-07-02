@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'resources\ui\mainwindow.ui'
 #
-# Created: Sat Jul 01 22:46:13 2017
+# Created: Sun Jul 02 10:11:10 2017
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -12,19 +12,20 @@ from PySide import QtCore, QtGui
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(670, 550)
-        MainWindow.setMinimumSize(QtCore.QSize(670, 550))
-        MainWindow.setMaximumSize(QtCore.QSize(670, 550))
+        MainWindow.resize(460, 400)
+        MainWindow.setMinimumSize(QtCore.QSize(460, 400))
+        MainWindow.setMaximumSize(QtCore.QSize(460, 400))
         self.centralWidget = QtGui.QWidget(MainWindow)
         self.centralWidget.setObjectName("centralWidget")
         self.verticalLayoutWidget = QtGui.QWidget(self.centralWidget)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(10, 10, 642, 521))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 0, 461, 391))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.verticalLayout = QtGui.QVBoxLayout(self.verticalLayoutWidget)
-        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setContentsMargins(-1, -1, -1, 5)
         self.verticalLayout.setObjectName("verticalLayout")
         self.tableWidget = QtGui.QTableWidget(self.verticalLayoutWidget)
-        self.tableWidget.setMinimumSize(QtCore.QSize(640, 0))
+        self.tableWidget.setMinimumSize(QtCore.QSize(460, 0))
+        self.tableWidget.setMaximumSize(QtCore.QSize(800, 16777215))
         self.tableWidget.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
         self.tableWidget.setShowGrid(False)
         self.tableWidget.setColumnCount(4)
