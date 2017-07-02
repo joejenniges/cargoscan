@@ -15,11 +15,14 @@ This tool takes the results from a cargoscan and quickly puts it into Evepraisal
 ## Can I trust you?
 The source is posted for a reason, you can always build it yourself
 
-## Releases
+# Downloads
 Binaries are found [Here](https://github.com/gunfighterj/cargoscan/releases)
 
 ## License
 FitScan is licensed under the MIT license, see LICENSE
+
+## Buy me a quafe?
+I make a living in EVE by making tools and websites, isk donations appreciated!
 
 ## Contact
 You can contact GunfighterJ in-game, or @GunfighterJ on #devfleet on tweetfleet slack
