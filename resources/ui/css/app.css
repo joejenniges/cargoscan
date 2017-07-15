@@ -1,0 +1,22 @@
+QTableWidget {
+    background-color: transparent;
+}
+QHeaderView::section {
+    background-color: transparent
+}
+QHeaderView {
+    background-color: transparent;
+}
+QTableCornerButton::section {
+    background-color: transparent;
+}
+QScrollBar:vertical {
+    background-color: transparent;
+}
+QTabWidget {
+    background-color: transparent;
+}
+QPushButton {
+    background-color: transparent;
+    border: 0px;
+}

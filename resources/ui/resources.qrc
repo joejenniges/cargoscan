@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>img/icon.png</file>
+        <file>css/app.css</file>
+        <file>img/add-icon.png</file>
+        <file>img/delete-icon.png</file>
+        <file>img/settings.png</file>
+        <file>img/question-mark.png</file>
+        <file>img/logo.png</file>
+    </qresource>
+</RCC>
