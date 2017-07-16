@@ -7,6 +7,18 @@ This tool takes the results from a cargoscan and quickly puts it into Evepraisal
 **Features:**
 * Automatic clipboard reading and posting to [Evepraisal](http://evepraisal.com)
 * Works on nearly everything in-game, not just cargo scans
+* Overlay mode keeps it on top and makes it transparent so you can focus on the game
+* Ability to hide and resize the items window
+* Customizable colors for value and volume based on preset limits you can define!
+
+**Usage:**
+* Run the program
+* Optionally configure any settings you want
+* Put into position over EVE
+* Press the 'o' key to enable overlay mode
+
+**Warning:**
+* While the program is running it monitors your clipboard and sends any copy you make to evepraisal. Disable the program once you are done.
 
 **Planned Features**
 * Priority for important items at the top of the list (Plex, injectors, etc)
